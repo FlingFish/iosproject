@@ -1,0 +1,38 @@
+//
+//  FunCourse-Prefix.pch
+//  FunCourse
+//
+//  Created by 寒竹子 on 14/12/25.
+//  Copyright (c) 2014年 XuRan. All rights reserved.
+//
+
+#ifndef FunCourse_FunCourse_Prefix_pch
+#define FunCourse_FunCourse_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "Define.h"
+#import "URLDefine.h"
+#import "XRHttpRequestWithBlock.h"
+#import "GetCurrentDevice.h"
+#import "UIImageView+EMWebCache.h"
+#import "Reachability.h" // 网络检测
+#import "MBProgressHUD.h"
+#import "URBAlertView.h"
+
+// 环信
+#import "WCAlertView.h"
+#import "TTGlobalUICommon.h"
+#import "UIViewController+HUD.h"
+#import "UIViewController+DismissKeyboard.h"
+#import "NSString+Valid.h"
+
+#define MR_SHORTHAND
+#import "CoreData+MagicalRecord.h"
+
+#import "EaseMob.h"
+#endif
+
+#endif
